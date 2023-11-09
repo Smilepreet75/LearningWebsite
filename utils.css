@@ -1,0 +1,47 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+
+.bg-red{
+    background-color: blue;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-top{
+    justify-content: top;
+}
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.px-1{
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 4%;
+}
+.explore{
+  height: 50%;
+  width: 100%;
+}
+
+.color{
+    color: white;
+}

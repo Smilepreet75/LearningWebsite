@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-width: 80vw;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    font-family: 'Philosopher', sans-serif;
+    width: 106px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar a{
+    width: 17%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #727373f8;
+    }
+
+
+.topleft{
+   width: 45%;
+   height: 50vh;
+}
+.topleft-sec2{
+   width: 50%;
+   height: 50vh;
+}
+.topright{
+    height: 50vh;
+   width: 75%;
+}
+
+.font-color{
+  color: white; 
+   font-family: 'Philosopher', sans-serif;
+}
+.logo{
+    width: 16%;
+}
+
+
+
+
+
+    .input-icons i {
+        position: absolute;
+    }
+      
+    .input-icons {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+      
+    .icon {
+        padding: 10px;
+        min-width: 40px;
+    }
+      
+    .input-field {
+        
+        padding: 10px;
+        text-align: center;
+        width: 70%;
+        height: 13%;
+        border-radius: 40px;
+    }
+
+    .section1 p{
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .bttn{
+        justify-content: center;
+        align-items: center;
+    }
+    .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+
+      .dropdown .dropbtn {
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit; /* Important for vertical align on mobile phones */
+        margin: 0; /* Important for vertical align on mobile phones */
+      }
+
+      a:hover, .dropdown:hover .dropbtn{
+        color: #727373f8;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #01133b;
+            min-width: 145px;
+            margin: 0;
+            box-shadow: 0px 8px 16px 0px rgba(247, 244, 244, 0.918);
+            z-index: 1;
+          }
+          .dropdown-content a {
+            float: none;
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+          }
+          
+          /* Add a grey background color to dropdown links on hover */
+          .dropdown-content a:hover {
+            background-color: #01133b;
+            text-decoration: underline;
+          }
+          
+          /* Show the dropdown menu on hover */
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+
+.latter form{
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.latter form input:first-child{
+    display: inline-block;
+    width: 72%;
+    outline: none;
+    padding: 16px 140px 16px 15px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding-left: 23px;
+}
+
+.latter form input:last-child{
+  position: absolute;
+  display: inline-block;
+  border: none;
+  outline: none;
+  background-color: #01133b;
+  color: white;
+  padding: 16px 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  top: 1px;
+  right: -40px;
+  justify-content: center;
+}
+
+
+

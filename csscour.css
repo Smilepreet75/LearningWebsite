@@ -1,0 +1,12 @@
+.topleft{
+    width: 20%;
+    height: 240vh;
+    background-color: #01133b;
+    border-color: white;
+    color: white
+}
+.topleft a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}

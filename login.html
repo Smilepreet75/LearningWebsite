@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login the page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="loginpg.css">
+    <link rel="stylesheet"  href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container1 mx-auto"  >
+   <header style="background-color: #01133b; height: 25%;">
+    <nav class="flex justify-between">
+        <div class=" navbar items-center flex">
+            <img class="logo" src="/project/ (1).png" alt="photo">
+            <p class="font-color" ><b>Next Step</b>
+            </p>
+        </div>
+        <ul class="navbar flex items-center" style="color: white;">
+            <li><a href="intro.html" class="width">Home</a></li>
+            <li>
+            <div class="dropdown">
+                <button class="dropbtn">Course
+                <i class="fa fa-caret-down"></i>
+              </button>
+              
+              <div  class="dropdown-content">
+                  <ul>
+                
+                <li><a href="css.html" class="width">CSS</a></li>
+                <li><a href="htmlco.html" class="width">HTML</a></li>
+                <li><a href="javasc.html" class="width">JavaScript</a></li>
+                <li><a href="c++.html" class="width">C++</a></li>
+            </ul>
+        </div>
+    </div>
+        </li>
+            
+            <li><a href="login.html" class="width">Login</a></li>
+            <li><a href="signup.html" class="width">Signup</a></li>
+            <li><a href="contact.html" class="width">Contact</a></li>
+
+           
+        </ul>
+    </nav>
+</header>
+<div>
+ <main class="min-h-screen" style="background-image: url(/project/img2.jpg); background-size: cover;">
+    <div class="loginpg">
+        <span class="borderline"></span>
+    <form action="connect.php" method="post">
+        <h2 >Login</h2><br><br>
+        <div class="inputbox">
+        <label class="color">Username: </label>
+        <br>
+        <input type="text" placeholder="Enter your username" required><br>
+        </div>
+        <div class="inputbox">
+        <label class="color">Password: </label>
+        <input type="password" placeholder="Enter your password" required><br>
+        </div>
+
+        <div class="links">
+            <a href="#">Forget Password</a>
+            <a href="signup.html">Signup</a>
+        </div><br><br>
+        <input type="submit" value="Login" >
+    </form>
+    </div>
+
+</main>
+</div>
+</div>
+
+</body>
+</html>

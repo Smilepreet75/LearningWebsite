@@ -1,0 +1,41 @@
+.loginpg{
+    height: 660px;
+    width: 750px;
+}
+
+.loginpg form .inputbox input {
+    width: 200%;
+}
+.loginpg form .inputbox textarea {
+    width: 200%;
+    color: black;
+    height: 175%;
+    padding: 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+.loginpg form input[type="submit"]{
+    margin-top: 20%;
+    width: 148px;
+}
+.loginpg::before
+{
+    height: 660px;
+    width: 750px;
+}
+.loginpg::after
+{
+    height: 660px;
+    width: 750px;
+}
+.borderline::before{
+    height: 660px;
+    width: 750px;
+}
+.borderline::after{
+    height: 660px;
+    width: 750px;
+}

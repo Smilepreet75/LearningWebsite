@@ -1,0 +1,24 @@
+.loginpg{
+height: 560px;
+
+}
+.loginpg form input[type="submit"]{
+   margin-top: 18px;
+}
+
+.loginpg form .links p{
+    margin-top: 12px;
+    color: white;
+    margin-right: 4px;
+}
+.loginpg form .links a{
+    margin-top: 13px;
+    color: white;
+
+}
+
+.loginpg form .links{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
